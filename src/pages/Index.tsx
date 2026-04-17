@@ -76,7 +76,7 @@ export default function Index() {
       <Footer />
 
       <QRModal
-        building={qrModalBuilding}
+        building={qrModalBuilding ? (buildings.find((b) => b.id === qrModalBuilding.id) ?? qrModalBuilding) : null}
         onClose={() => setQrModalBuilding(null)}
         onUpdateQR={handleUpdateQR}
         onAddQR={handleAddQR}
