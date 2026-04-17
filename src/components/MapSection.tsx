@@ -33,8 +33,8 @@ export default function MapSection({ buildings, onQRClick }: MapSectionProps) {
       const L = window.L;
 
       const map = L.map(mapRef.current!, {
-        center: [53.347, 83.777],
-        zoom: 16,
+        center: [53.343, 83.779],
+        zoom: 14,
         zoomControl: false,
       });
 
