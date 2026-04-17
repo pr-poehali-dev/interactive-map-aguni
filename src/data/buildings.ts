@@ -83,7 +83,7 @@ export const buildings: Building[] = [
       { id: "dean-ext", name: "Деканат заочное", url: "https://asu.ru/dean-ext" },
       { id: "creativity", name: "Центр Творчества", url: "https://asu.ru/creativity" },
       { id: "boiling", name: "Точка кипения", url: "https://boiling.asu.ru" },
-      { id: "liga", name: "Лига студентов", url: "https://liga.asu.ru" },
+      { id: "liga", name: "Лига студентов", url: "https://liga.asu.ru", image: "https://cdn.poehali.dev/projects/0d9b90aa-f21c-49c2-9293-c68e8ca12f3f/bucket/28d0082f-d45b-4ee8-92ae-4fa7979332fd.jpg" },
     ],
   },
   {
